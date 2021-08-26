@@ -1,0 +1,25 @@
+azure:
+  activedirectory:
+    tenant-id: 440ab254-5d24-40df-993e-9b9b32a8a897
+    client-id: a4860505-6545-433b-857e-550a576ea4a1
+    client-secret: beda994e-f480-4419-9870-a033e74e4fb6
+    user-group:
+      allowed-group-names: group1
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/azure
+    username: root
+    password: root
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+  mvc:
+    throw-exception-if-no-handler-found: true
+  web:
+    resources:
+      add-mappings: false
+

@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AzureActiveDirectoryAunthenticationApiApplication {
+public class AzureActiveDirectoryAuthenticationApiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(AzureActiveDirectoryAunthenticationApiApplication.class, args);
+		SpringApplication.run(AzureActiveDirectoryAuthenticationApiApplication.class, args);
 	}
 
 }
